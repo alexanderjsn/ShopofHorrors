@@ -14,6 +14,3 @@ public class Discount extends Food {
         return newPrice;
     }
 }
-
-
-
