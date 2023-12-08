@@ -1,4 +1,5 @@
 import java.util.*;
+
 // Tagit bort boilerplate text
 public class Main {
 
@@ -9,7 +10,7 @@ public class Main {
         Inventory bag = new Inventory("", 0.00, 100.00, 0);
 
 
-        // Fixat lite med texten samt lagt till "(4. Quite )" inom loopen
+        // Fixat lite med texten samt lagt till "(4. Quite )" inom loopen, rad 48
         // Arraylist med objekt för varorna
         ArrayList<Food> varor = new ArrayList<>();
         Food Kniv = new Food("(1. Godis Kniv,) ", 10, 10.00);
