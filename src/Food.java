@@ -7,44 +7,44 @@ public class Food {
 
     // konstruktor
 
-    public Food(String name, int stock, double price){
+    public Food(String name, int stock, double price) {
         this.setName(name);
         this.setStock(stock);
         this.setPrice(price);
     }
+
     // getters och setters
-    public String getName(){
+    public String getName() {
 
         return name;
     }
 
-    public double getPrice(){
+    public double getPrice() {
 
         return price;
     }
 
-    public int getStock(){
+    public int getStock() {
 
         return stock;
     }
 
-    public void setPrice(double price){
-            this.price = price;
-        }
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
 
-    public void setStock(int stock){
+    public void setStock(int stock) {
         this.stock = stock;
     }
 
     // uppdaterar lager saldo
-    public void updateStock(){
+    public void updateStock() {
 
-        stock --;
+        stock--;
     }
 }
-
