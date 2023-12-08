@@ -64,7 +64,6 @@ public class Main {
                 System.err.println("Out of Bounds. Please Try Again");
             }
 
-            // Optimerat lite med if-else satser.
             // uppdaterar innehåll, mängd spenderat och lagersaldo
             if (input == 1) {
                 bag.updateBag(Kniv);
