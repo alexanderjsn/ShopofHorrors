@@ -5,6 +5,7 @@ public class Inventory {
     private String bag;
 
     // antalet pengar användaren har. Visar hur mycket pengar spelaren kan använda tills spelet tar slut
+    private double cash;
 
     private int amount;
 
@@ -38,6 +39,7 @@ public class Inventory {
 
     public void setCash(double cash) {
 
+        this.cash = cash;
     }
 
     public void setAmount(int amount) {
@@ -55,6 +57,7 @@ public class Inventory {
      */
     public void updateBag(Food food) {
         bag += food.getName();
+        cash -= food.getPrice();
         cost -= food.getPrice();
         // Tagit bort printout eftersom det inte behövs
 

@@ -1,10 +1,10 @@
 import java.util.*;
-// Tog bort text
+// Tagit bort boilerplate text
 public class Main {
 
     public static void main(String[] args) {
 
-        // Optimerat koden. "bag.inBag();" behövs inte
+        // Tagit bort "bag.inBag();" behövs inte
         // Info om inventory
         Inventory bag = new Inventory("", 0.00, 100.00, 0);
 
