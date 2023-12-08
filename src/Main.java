@@ -29,21 +29,14 @@ public class Main {
         // sätter metoden på Pumpans Price egenskap.
         Pumpa.setPrice(discount.getPrice());
 
-<<<<<<< Updated upstream
-        // Flyttat "scanner" för att undvika omdeklaration
+
+        // Flyttat "scanner" utanför loopen för att undvika omdeklaration
         // Scanner
         Scanner scanner = new Scanner(System.in);
 
         // Optimerat while-loopen. Skriv "true" om loopen ska gå för-evigt, tills användaren trycker på "4"
         // eller har överstigit 100 SEK
-=======
-        // Flyttat "scanner" utanför loopen för att undvika omdeklaration
-        // Scanner
-        Scanner scanner = new Scanner(System.in);
 
-        // Optimerat "while" loopen. Man kan skriva "true" om loopen ska gå för-evigt, tills användaren trycker på "4"
-        // eller överstiger 100 SEK.
->>>>>>> Stashed changes
         while (true) {
 
             // skriver ut listan av varor genom att iterera längden av Arraylistan
